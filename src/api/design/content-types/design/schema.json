@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "designs",
+  "info": {
+    "singularName": "design",
+    "pluralName": "designs",
+    "displayName": "Design"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "created_on": {
+      "type": "date"
+    },
+    "descriptions": {
+      "type": "text"
+    },
+    "url": {
+      "type": "string"
+    },
+    "complexity": {
+      "type": "integer"
+    },
+    "preview": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
