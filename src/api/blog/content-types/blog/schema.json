@@ -1,44 +1,36 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "blogs",
   "info": {
     "singularName": "blog",
     "pluralName": "blogs",
-    "displayName": "Blog"
+    "displayName": "Landing page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "slug": {
-      "type": "uid",
-      "targetField": "title"
+    "banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hero-banner.hero-banner"
     },
     "descriptions": {
-      "type": "text"
+      "type": "component",
+      "repeatable": true,
+      "component": "page-description.page-description"
     },
-    "contents": {
-      "type": "text"
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-carousel.page-carousel"
     },
-    "thumbnail": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
-    },
-    "posted_on": {
-      "type": "date"
-    },
-    "author": {
-      "type": "string"
+    "second_Descriptions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-description.page-description"
     }
   }
 }

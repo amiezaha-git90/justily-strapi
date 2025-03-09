@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_carousel_page_carousels",
+  "info": {
+    "displayName": "Page Carousel"
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

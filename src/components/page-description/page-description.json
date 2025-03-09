@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_description_page_descriptions",
+  "info": {
+    "displayName": "Page description"
+  },
+  "options": {},
+  "attributes": {
+    "block_title": {
+      "type": "string"
+    },
+    "block_description": {
+      "type": "text"
+    }
+  }
+}
